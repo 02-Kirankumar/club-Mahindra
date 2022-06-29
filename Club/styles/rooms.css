@@ -1,0 +1,57 @@
+/* header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    position: relative;
+} */
+header {
+    width: 90%;
+    position: absolute;
+    margin: 1rem 5%;  /* unit , pixels, in, rem */
+    display: flex;
+    align-items: baseline; /*aligns along the axis of the element */
+    justify-content: space-between;
+    z-index: 120;
+}
+
+#hero { /* for id=hero */
+    background-image: url('./../assets/hero.jpg');
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+.title-container { /* for class="title-container" */
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5%;
+    z-index: 99;
+    position: relative;
+}
+.title {
+    font-size: 50px;
+}
+
+.subtitle {
+    font-size: 40px;
+}
+
+
+.rooms{
+    margin: 30px;
+    padding: 20px;
+}
+
+.rooms-container{
+    display: flex;
+    justify-items: flex-start;
+    margin: 20px;
+}
+.room-type{
+    width: 300px;
+    height: 50vh;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
